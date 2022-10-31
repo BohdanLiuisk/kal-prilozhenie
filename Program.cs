@@ -3,7 +3,7 @@
 Console.InputEncoding = Encoding.Unicode;
 Console.OutputEncoding = Encoding.Unicode;
 string? word;
-const string banWord = "линуск";
+const string banWord = "линукс";
 do {
     word = Console.ReadLine();
     Console.WriteLine(word?.Replace("л", "р"));
